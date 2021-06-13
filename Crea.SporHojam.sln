@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0BFE1B20-C72B-47A2-9BFB-7032466A2893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationProcess", "ApplicationProcess", "{ADD0AE4E-A067-4354-9CFC-6381B327E9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crea.SporHojam.ApplicationProcess.Api", "src\Services\ApplicationProcess\Crea.SporHojam.ApplicationProcess.Api\Crea.SporHojam.ApplicationProcess.Api.csproj", "{F26C0726-F4E5-4025-B9E3-C197A7851499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crea.SporHojam.ApplicationProcess.Domain", "src\Services\ApplicationProcess\Crea.SporHojam.ApplicationProcess.Domain\Crea.SporHojam.ApplicationProcess.Domain.csproj", "{6DC4DA49-8CA6-4813-8DC4-868EC166CAC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crea.SporHojam.ApplicationProcess.Infrastructure", "src\Services\ApplicationProcess\Crea.SporHojam.ApplicationProcess.Infrastructure\Crea.SporHojam.ApplicationProcess.Infrastructure.csproj", "{EC98A4EE-0C37-47DE-A04F-BDAFB7C3CC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crea.SporHojam.ApplicationProcess.Test", "src\Services\ApplicationProcess\Crea.SporHojam.ApplicationProcess.Test\Crea.SporHojam.ApplicationProcess.Test.csproj", "{172C6D7B-114A-4EA1-9660-438C06190A07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3C78D402-6084-4D51-9C60-725C708B23A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crea.SporHojam.Domain.Common", "src\Common\Crea.SporHojam.Domain.Common\Crea.SporHojam.Domain.Common.csproj", "{514F2F56-C170-41FB-B5EE-3558D261ACA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crea.SporHojam.Data.Common", "src\Common\Crea.SporHojam.Data.Common\Crea.SporHojam.Data.Common.csproj", "{94DDE2D9-37DB-48DD-86B8-7D4F2BE17753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F26C0726-F4E5-4025-B9E3-C197A7851499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26C0726-F4E5-4025-B9E3-C197A7851499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26C0726-F4E5-4025-B9E3-C197A7851499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26C0726-F4E5-4025-B9E3-C197A7851499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC4DA49-8CA6-4813-8DC4-868EC166CAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC4DA49-8CA6-4813-8DC4-868EC166CAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC4DA49-8CA6-4813-8DC4-868EC166CAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC4DA49-8CA6-4813-8DC4-868EC166CAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC98A4EE-0C37-47DE-A04F-BDAFB7C3CC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC98A4EE-0C37-47DE-A04F-BDAFB7C3CC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC98A4EE-0C37-47DE-A04F-BDAFB7C3CC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC98A4EE-0C37-47DE-A04F-BDAFB7C3CC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172C6D7B-114A-4EA1-9660-438C06190A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172C6D7B-114A-4EA1-9660-438C06190A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172C6D7B-114A-4EA1-9660-438C06190A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172C6D7B-114A-4EA1-9660-438C06190A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514F2F56-C170-41FB-B5EE-3558D261ACA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514F2F56-C170-41FB-B5EE-3558D261ACA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514F2F56-C170-41FB-B5EE-3558D261ACA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514F2F56-C170-41FB-B5EE-3558D261ACA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DDE2D9-37DB-48DD-86B8-7D4F2BE17753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DDE2D9-37DB-48DD-86B8-7D4F2BE17753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DDE2D9-37DB-48DD-86B8-7D4F2BE17753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DDE2D9-37DB-48DD-86B8-7D4F2BE17753}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADD0AE4E-A067-4354-9CFC-6381B327E9DE} = {0BFE1B20-C72B-47A2-9BFB-7032466A2893}
+		{F26C0726-F4E5-4025-B9E3-C197A7851499} = {ADD0AE4E-A067-4354-9CFC-6381B327E9DE}
+		{6DC4DA49-8CA6-4813-8DC4-868EC166CAC3} = {ADD0AE4E-A067-4354-9CFC-6381B327E9DE}
+		{EC98A4EE-0C37-47DE-A04F-BDAFB7C3CC8E} = {ADD0AE4E-A067-4354-9CFC-6381B327E9DE}
+		{172C6D7B-114A-4EA1-9660-438C06190A07} = {ADD0AE4E-A067-4354-9CFC-6381B327E9DE}
+		{514F2F56-C170-41FB-B5EE-3558D261ACA7} = {3C78D402-6084-4D51-9C60-725C708B23A9}
+		{94DDE2D9-37DB-48DD-86B8-7D4F2BE17753} = {3C78D402-6084-4D51-9C60-725C708B23A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F579B1AC-2E4A-454A-8337-1AC9A1D5E765}
+	EndGlobalSection
+EndGlobal

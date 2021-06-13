@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Crea.SporHojam.Data.Common\Crea.SporHojam.Data.Common.csproj" />
+    <ProjectReference Include="..\..\..\Common\Crea.SporHojam.Domain.Common\Crea.SporHojam.Domain.Common.csproj" />
+    <ProjectReference Include="..\Crea.SporHojam.ApplicationProcess.Domain\Crea.SporHojam.ApplicationProcess.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
