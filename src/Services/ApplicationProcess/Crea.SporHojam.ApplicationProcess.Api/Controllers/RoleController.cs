@@ -32,7 +32,7 @@ namespace Crea.SporHojam.ApplicationProcess.Api.Controllers
             var role = await _roleService.CreateRole(_mapper.Map<Role>(roleDto));
             var roleModelDto = _mapper.Map<RoleDto>(role);
 
-            return CreatedAtAction("Get", new { id = roleModelDto.Id }, roleModelDto);
+            return Ok(roleModelDto);
         }
     }
 }
