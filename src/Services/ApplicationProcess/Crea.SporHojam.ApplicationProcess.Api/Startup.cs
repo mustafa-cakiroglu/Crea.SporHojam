@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace Crea.SporHojam.ApplicationProcess.Api
 {
@@ -43,6 +44,11 @@ namespace Crea.SporHojam.ApplicationProcess.Api
                         .AllowCredentials());
             });
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Crea.SporHojam.Api", Version = "v1" });
+            });
+
             services.AddControllers();
         }
 
@@ -51,6 +57,8 @@ namespace Crea.SporHojam.ApplicationProcess.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Crea.SporHojam.Api v1"));
             }
 
             app.UseHttpsRedirection();
